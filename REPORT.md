@@ -1,7 +1,6 @@
 # 📌 Rättningsrapport – fed24s-the-zoo-hjortie
 
 ## 🎯 Uppgiftens Krav:
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/xBUCHFwF)
 # The Zoo
 
 I denna inlämningsuppgift kommer ni att bygga ett zoo. Zoo:t har ett antal djur som kommer behöva matas. 
@@ -66,13 +65,12 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 
 Ha roligt, skratta och lär er massor!
 
-
 ## 🔍 ESLint-varningar:
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-hjortie\src\reducers\AnimalReducer.ts - no-unused-vars - 'LOADED' is defined but never used.,no-unused-vars - 'FED' is defined but never used.,no-unused-vars - 'TOGGLEDISFED' is defined but never used.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-hjortie\src\services\animalService.ts - no-console - Unexpected console statement.
 
 ## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller alla krav för betyg VG. Koden visar en god förståelse för både frontend utveckling och specifika tekniska krav såsom context API och hämtning av data med hjälp av tjänster.
+📌 **Motivering:** Projektet uppfyller alla krav för både G och VG. Studenterna har implementerat routing med korrekt användning av layouts och child-routes. Djursidor är tillgängliga med korrekt matningslogik och det finns hantering för trasiga bilder. Användningen av context och reducers är korrekt istället för props och state, samt implementeringen av subtila animeringar och stylingen med SCSS är omfattande och väl genomförd【4:5†Router.tsx】【4:1†Animal.tsx】【4:4†Layout.tsx】.
 
 💡 **Förbättringsförslag:**  
-Projektet kan förbättras genom att lägga till mer detaljerad felhantering och ytterligare testning i kodbasen för att säkerställa robust interaktion mellan komponenter.
+Det finns inga större förbättringar som behövs. Dock kan koden dra nytta av ytterligare kommentarlinjer för att förtydliga vissa kodsektioner, vilket kan förbättra underhållbarheten och läsbarheten för framtida utvecklare. Vidare testfall kunde integreras för att säkerställa funktionaliteten av kritiska delar som matningslogiken och router-funktionaliteten.
