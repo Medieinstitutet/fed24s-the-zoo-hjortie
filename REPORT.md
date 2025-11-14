@@ -69,8 +69,8 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-hjortie\src\reducers\AnimalReducer.ts - no-unused-vars - 'LOADED' is defined but never used.,no-unused-vars - 'FED' is defined but never used.,no-unused-vars - 'TOGGLEDISFED' is defined but never used.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-hjortie\src\services\animalService.ts - no-console - Unexpected console statement.
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller alla krav för både G och VG. Studenterna har implementerat routing med korrekt användning av layouts och child-routes. Djursidor är tillgängliga med korrekt matningslogik och det finns hantering för trasiga bilder. Användningen av context och reducers är korrekt istället för props och state, samt implementeringen av subtila animeringar och stylingen med SCSS är omfattande och väl genomförd【4:5†Router.tsx】【4:1†Animal.tsx】【4:4†Layout.tsx】.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Projektet uppfyller de grundläggande kraven för betyg G. Studenten har implementerat de nödvändiga funktionerna som beskrivs i uppgiften, inklusive routing, djurhantering och korrekt hantering av trasiga bildlänkar. Koden är funktionell och följer grundläggande kodkvalitetsprinciper. För att nå VG-nivå krävs ytterligare förbättringar i state management och användarupplevelse.
 
 💡 **Förbättringsförslag:**  
-Det finns inga större förbättringar som behövs. Dock kan koden dra nytta av ytterligare kommentarlinjer för att förtydliga vissa kodsektioner, vilket kan förbättra underhållbarheten och läsbarheten för framtida utvecklare. Vidare testfall kunde integreras för att säkerställa funktionaliteten av kritiska delar som matningslogiken och router-funktionaliteten.
+För att nå VG-nivå bör studenten implementera context API för komponentkommunikation och använda reducers för djurhantering. Subtila animeringar bör läggas till vid knapptryckningar och sidladdningar för att förbättra användarupplevelsen. Error handling kan förbättras för att ge användarna bättre feedback. Dessutom kan kodens läsbarhet ökas genom bättre kommentarer och enhetliga namnkonventioner.
