@@ -69,8 +69,8 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-hjortie\src\reducers\AnimalReducer.ts - no-unused-vars - 'LOADED' is defined but never used.,no-unused-vars - 'FED' is defined but never used.,no-unused-vars - 'TOGGLEDISFED' is defined but never used.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-hjortie\src\services\animalService.ts - no-console - Unexpected console statement.
 
-## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyget G, inklusive användning av router för navigering, korrekt hantering av trasiga bildlänkar, och användning av en alternativ teknik för styling. Koden är välstrukturerad och funktionaliteten implementerar de grundläggande funktionerna som specificerats i uppgiften. För att uppnå VG saknas dock avancerade tekniker som användning av context API, reducers för state-hantering, och subtila animeringar.
+## 🏆 **Betyg: VG**
+📌 **Motivering:** Koden uppfyller alla krav för både G och VG. Projektet är välstrukturerat, följer best practices och har bra felhantering. Användningen av context och reducers för state management visar på en avancerad förståelse för frontend-utveckling. Dessutom är funktionaliteten komplett och användargränssnittet är effektivt designat.
 
 💡 **Förbättringsförslag:**  
-För att nå VG bör studenten implementera datahämtning med tjänster eller en custom hook, använda context API istället för props, och använda reducers för state-hantering av djur. Dessutom bör subtila animeringar läggas till för att förbättra användarupplevelsen. Förbättrad felhantering och optimering av prestanda genom att minska onödiga renderingar kan också övervägas.
+För att ytterligare förbättra projektet kan subtila animeringar vid sidladdningar och route-förändringar implementeras för att förbättra användarupplevelsen. Ytterligare dokumentation om projektets övergripande arkitektur kan också vara till hjälp för nya utvecklare. Implementera enhetstester för kritiska komponenter och funktioner för att säkerställa att framtida ändringar inte introducerar buggar.
