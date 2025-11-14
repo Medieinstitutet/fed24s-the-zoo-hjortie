@@ -70,7 +70,7 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-hjortie\src\services\animalService.ts - no-console - Unexpected console statement.
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller de grundläggande kraven för betyg G. Studenten har implementerat de nödvändiga funktionerna som beskrivs i uppgiften, inklusive routing, djurhantering och korrekt hantering av trasiga bildlänkar. Koden är funktionell och följer grundläggande kodkvalitetsprinciper. För att nå VG-nivå krävs ytterligare förbättringar i state management och användarupplevelse.
+📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyget G, inklusive användning av router för navigering, korrekt hantering av trasiga bildlänkar, och användning av en alternativ teknik för styling. Koden är välstrukturerad och funktionaliteten implementerar de grundläggande funktionerna som specificerats i uppgiften. För att uppnå VG saknas dock avancerade tekniker som användning av context API, reducers för state-hantering, och subtila animeringar.
 
 💡 **Förbättringsförslag:**  
-För att nå VG-nivå bör studenten implementera context API för komponentkommunikation och använda reducers för djurhantering. Subtila animeringar bör läggas till vid knapptryckningar och sidladdningar för att förbättra användarupplevelsen. Error handling kan förbättras för att ge användarna bättre feedback. Dessutom kan kodens läsbarhet ökas genom bättre kommentarer och enhetliga namnkonventioner.
+För att nå VG bör studenten implementera datahämtning med tjänster eller en custom hook, använda context API istället för props, och använda reducers för state-hantering av djur. Dessutom bör subtila animeringar läggas till för att förbättra användarupplevelsen. Förbättrad felhantering och optimering av prestanda genom att minska onödiga renderingar kan också övervägas.
