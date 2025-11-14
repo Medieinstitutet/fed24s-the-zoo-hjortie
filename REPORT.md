@@ -66,11 +66,11 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 Ha roligt, skratta och lär er massor!
 
 ## 🔍 ESLint-varningar:
-- C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-hjortie\src\reducers\AnimalReducer.ts - no-unused-vars - 'LOADED' is defined but never used.,no-unused-vars - 'FED' is defined but never used.,no-unused-vars - 'TOGGLEDISFED' is defined but never used.
-- C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-hjortie\src\services\animalService.ts - no-console - Unexpected console statement.
+- /app/repos/fed24s-the-zoo-hjortie/src/reducers/AnimalReducer.ts - no-unused-vars - 'LOADED' is defined but never used.,no-unused-vars - 'FED' is defined but never used.,no-unused-vars - 'TOGGLEDISFED' is defined but never used.
+- /app/repos/fed24s-the-zoo-hjortie/src/services/animalService.ts - no-console - Unexpected console statement.
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Koden uppfyller alla krav för både G och VG. Projektet är välstrukturerat, följer best practices och har bra felhantering. Användningen av context och reducers för state management visar på en avancerad förståelse för frontend-utveckling. Dessutom är funktionaliteten komplett och användargränssnittet är effektivt designat.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Koden uppfyller alla grundläggande krav för betyg G, inklusive användning av en router för navigering, hantering av trasiga bildlänkar och implementering av en översiktssida för djuren. Projektet använder även en annan teknik än ren CSS för styling. Dock saknas flera avancerade funktioner som krävs för VG, såsom användning av context och reducers för state-hantering, samt subtila animeringar.
 
 💡 **Förbättringsförslag:**  
-För att ytterligare förbättra projektet kan subtila animeringar vid sidladdningar och route-förändringar implementeras för att förbättra användarupplevelsen. Ytterligare dokumentation om projektets övergripande arkitektur kan också vara till hjälp för nya utvecklare. Implementera enhetstester för kritiska komponenter och funktioner för att säkerställa att framtida ändringar inte introducerar buggar.
+För att nå VG-nivå bör projektet implementera datahämtning med hjälp av tjänster eller en custom hook, använda context för komponentkommunikation, och hantera djurens tillstånd med reducers istället för state. Dessutom kan subtila animeringar adderas för att förbättra användarupplevelsen. Förbättra även kodens dokumentation och konsekvens i namngivning för att underlätta framtida underhåll och utveckling.
