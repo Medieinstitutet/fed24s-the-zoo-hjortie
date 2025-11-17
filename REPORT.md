@@ -69,8 +69,8 @@ Ha roligt, skratta och lär er massor!
 - /app/repos/fed24s-the-zoo-hjortie/src/reducers/AnimalReducer.ts - no-unused-vars - 'LOADED' is defined but never used.,no-unused-vars - 'FED' is defined but never used.,no-unused-vars - 'TOGGLEDISFED' is defined but never used.
 - /app/repos/fed24s-the-zoo-hjortie/src/services/animalService.ts - no-console - Unexpected console statement.
 
-## 🏆 **Betyg: G**
-📌 **Motivering:** Koden uppfyller alla grundläggande krav för betyg G, inklusive användning av en router för navigering, hantering av trasiga bildlänkar och implementering av en översiktssida för djuren. Projektet använder även en annan teknik än ren CSS för styling. Dock saknas flera avancerade funktioner som krävs för VG, såsom användning av context och reducers för state-hantering, samt subtila animeringar.
+## 🏆 **Betyg: VG**
+📌 **Motivering:** Projektet uppfyller alla krav för både G och VG. Koden är exceptionellt väl implementerad med en välstrukturerad arkitektur och användning av moderna tekniker som React Router, Context API och Reducers. Felhantering är väl genomtänkt, och användarupplevelsen förbättras av subtila animeringar vid knapptryck och sidladdningar. Projektet hanterar djurens matningsstatus enligt specifikationerna och använder SCSS för styling.
 
 💡 **Förbättringsförslag:**  
-För att nå VG-nivå bör projektet implementera datahämtning med hjälp av tjänster eller en custom hook, använda context för komponentkommunikation, och hantera djurens tillstånd med reducers istället för state. Dessutom kan subtila animeringar adderas för att förbättra användarupplevelsen. Förbättra även kodens dokumentation och konsekvens i namngivning för att underlätta framtida underhåll och utveckling.
+För att ytterligare förbättra projektet kan studenten lägga till mer detaljerade kommentarer för att öka läsbarheten och underlätta för framtida utvecklare. Det skulle också vara fördelaktigt att inkludera fler enhetstester för att säkerställa robustheten av funktionaliteten, särskilt kring reducer-logiken och API-anropen.
